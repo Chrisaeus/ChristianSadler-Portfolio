@@ -20,7 +20,7 @@ As the screen size gets smaller, the nav bar shuffles under the constant header 
 
 ---
 
-##Links:
+## Links:
 
 ### [GitHub Repository](https://github.com/Chrisaeus/ChristianSadler-Portfolio)
 
