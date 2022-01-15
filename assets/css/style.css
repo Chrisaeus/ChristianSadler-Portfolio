@@ -179,7 +179,8 @@ main {
 .card:hover .cardTitle {
   color: black;
   background-color: white;
-  /* background-color: #333; */
+  border-right: 1px solid black;
+  border-bottom: 1px solid black;
 }
 
 #myWork .cardContent {
@@ -200,6 +201,7 @@ main {
   border-right: 1px solid white;
   border-bottom: 1px solid white;
   border-top-left-radius: 7px;
+  border-bottom-right-radius: 7px;
   padding: 5px 10px;
   position: absolute;
   top: auto;
@@ -215,30 +217,61 @@ main {
   position: absolute;
   bottom: 0;
   left: auto;
+  background-image: url("../images/GitHub-Mark-Light-120px-plus.png");
+  background-repeat: no-repeat;
+  background-size: 27px auto;
+  background-position: 7px;
+  border-top-right-radius: 7px;
 }
 
 .gitHub a {
   padding: 5px 20px;
-  /* border-bottom-left-radius: inherit; */
   margin: 0;
 }
 
 .gitHub:hover {
   color: black;
   background-color: white;
+  background-image: url("../images/GitHub-Mark-120px-plus.png");
+  border-right: 1px solid black;
+  border-top: 1px solid black;
 }
 
 .gitHub:hover ~ .cardTitle{
   color: white;
   background-color: #333;
+  border-right: 1px solid white;
+  border-bottom: 1px solid white;
 }
 
 #interActor {
-  /* position: relative; */
+  background-image: url("../images/InterActorPic.png");
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
 }
 
-#linkGitHub {
-  background-image: url("../images/GitHub-Icon-White-Logo.wine.png");
+#readmeGenerator {
+  background-image: url("../images/README\ Example.gif");
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+}
+
+#eCommerceBackEnd {
+  background-image: url("../images/E-Commerce\ Back\ End.gif");
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+}
+
+#noteTaker {
+  background-image: url("../images/NoteTakerPic.png");
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+}
+
+#weatherDashboard {
+  background-image: url("../images/WeatherDashboardPic.png");
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
 }
 
 /* Coming Soon placeholder */
